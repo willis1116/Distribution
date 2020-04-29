@@ -59,6 +59,7 @@
             this.range_X.Name = "range_X";
             this.range_X.Size = new System.Drawing.Size(60, 25);
             this.range_X.TabIndex = 0;
+            this.range_X.TextChanged += new System.EventHandler(this.range_X_TextChanged);
             // 
             // dx
             // 
@@ -66,6 +67,7 @@
             this.dx.Name = "dx";
             this.dx.Size = new System.Drawing.Size(60, 25);
             this.dx.TabIndex = 3;
+            this.dx.TextChanged += new System.EventHandler(this.dx_TextChanged);
             // 
             // range_Z
             // 
@@ -73,6 +75,7 @@
             this.range_Z.Name = "range_Z";
             this.range_Z.Size = new System.Drawing.Size(60, 25);
             this.range_Z.TabIndex = 2;
+            this.range_Z.TextChanged += new System.EventHandler(this.range_Z_TextChanged);
             // 
             // range_Y
             // 
@@ -80,6 +83,7 @@
             this.range_Y.Name = "range_Y";
             this.range_Y.Size = new System.Drawing.Size(60, 25);
             this.range_Y.TabIndex = 1;
+            this.range_Y.TextChanged += new System.EventHandler(this.range_Y_TextChanged);
             // 
             // dz
             // 
@@ -87,6 +91,7 @@
             this.dz.Name = "dz";
             this.dz.Size = new System.Drawing.Size(60, 25);
             this.dz.TabIndex = 5;
+            this.dz.TextChanged += new System.EventHandler(this.dz_TextChanged);
             // 
             // dy
             // 
@@ -94,6 +99,7 @@
             this.dy.Name = "dy";
             this.dy.Size = new System.Drawing.Size(60, 25);
             this.dy.TabIndex = 4;
+            this.dy.TextChanged += new System.EventHandler(this.dy_TextChanged);
             // 
             // wind_speed
             // 
@@ -101,6 +107,7 @@
             this.wind_speed.Name = "wind_speed";
             this.wind_speed.Size = new System.Drawing.Size(60, 25);
             this.wind_speed.TabIndex = 6;
+            this.wind_speed.TextChanged += new System.EventHandler(this.wind_speed_TextChanged);
             // 
             // wind_direction
             // 
@@ -108,6 +115,7 @@
             this.wind_direction.Name = "wind_direction";
             this.wind_direction.Size = new System.Drawing.Size(60, 25);
             this.wind_direction.TabIndex = 7;
+            this.wind_direction.TextChanged += new System.EventHandler(this.wind_direction_TextChanged);
             // 
             // label1
             // 
