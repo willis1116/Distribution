@@ -1,2 +1,2 @@
-# Distribution 高斯擴散模式_點源汙染
+# Distribution (高斯擴散模式 點源汙染)
 
