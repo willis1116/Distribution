@@ -1,5 +1,5 @@
 # Distribution (高斯擴散模式 點源汙染)
-![alt 介面](https://imgur.com/3DZPVcu)
+![alt 介面](https://imgur.com/3DZPVcu.png)
 ## 建立網格
 1.首先輸入模擬範圍的空間大小，分別為X、Y、Z 軸距離(m)，建議為(50000,50000,1000)
 
