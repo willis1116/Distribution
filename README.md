@@ -18,8 +18,8 @@
 
 3.建立完所有煙囪，即可以按下計算地面最大濃度位置，最多可建立20支煙囪。
 
-程式計算完成畫面
+程式計算完成畫面，輸出最大濃度(ppm)，到小數點後四位
 
-![alt](https://imgur.com/NoY2jT6.png)
+![alt](https://imgur.com/xk02hGF.png)
 
 
