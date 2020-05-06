@@ -126,11 +126,13 @@ namespace distribution
         private void Max_concentration_Click(object sender, EventArgs e)
         {
             double[] X, Y, Z;
+            double con;
             X = grid.getX();
             Y = grid.getY();
             Z = grid.getZ();
             maxp = chim_sum.max_point(ground);
-            chimney_info.Text += "地面最大濃度為: " + chim_sum.maxC(maxp) + "\r\n";
+            con = chim_sum.maxC(maxp)*Math.Pow(10,6);
+            chimney_info.Text += "地面最大濃度為: " + con.ToString("f4")+ " ppm\r\n";
             chimney_info.Text += "地面最大濃度位置(X,Y,Z) : (" + X[maxp] + "," + Y[maxp] + "," + Z[maxp] + ")\r\n";
 
             //捲動到底部
